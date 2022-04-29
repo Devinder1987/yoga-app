@@ -16,7 +16,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Yoga Classes in Gurgaon</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.webp" />
       </Head>
       {/* Need to create Layout for all common pages. */}
       {/* Header */}
