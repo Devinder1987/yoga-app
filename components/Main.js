@@ -42,7 +42,7 @@ export default function Main() {
             <div className={style.contactDetailImage}>
               <img src="logo.webp" height={120} />
             </div>
-            <div lassName={style.contactDetailNumber}>
+            <div className={style.contactDetailNumber}>
               <p>Rohit Salaniya</p>
               <p>
                 <a href="tel:9971293694">9971293694</a>{' '}
