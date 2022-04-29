@@ -49,7 +49,7 @@ export default function Main() {
                 <a
                   target="_blank"
                   title="WhatsApp"
-                  href="https://api.whatsapp.com/send?phone=+91971293694&amp;text=Hi, I would like to get more information about personal classes"
+                  href="https://api.whatsapp.com/send?phone=+919971293694&amp;text=Hi, I would like to get more information about personal classes"
                 >
                   <FontAwesomeIcon icon="fa-brands fa-whatsapp"></FontAwesomeIcon>
                 </a>
