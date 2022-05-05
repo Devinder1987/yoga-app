@@ -1,0 +1,218 @@
+.regularText {
+  text-align: justify;
+  color: #696969;
+  font-weight: 300;
+}
+.paddingBottom {
+  padding-bottom: 2rem;
+}
+.header {
+  /* height: 64px; */
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 3px 5px -3px;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  max-width: 786px;
+  backdrop-filter: blur(10px);
+  background-color: hsl(210deg 36% 15% / 85%);
+  z-index: 9999;
+  color: #fff;
+}
+
+.main {
+  padding: 6rem 1rem 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 253, 226, 0.7) 0%,
+    rgba(228, 241, 255, 0.7) 100%
+  );
+}
+
+.brightText {
+  color: #ff6000;
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: 300;
+  padding: 1rem 0;
+}
+.main ul {
+  list-style: none;
+  padding-inline-start: 1rem;
+}
+.main li {
+  padding-bottom: 0.5rem;
+  font-style: italic;
+}
+.main li:before {
+  content: '✓'; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+.main img {
+  width: 100%;
+}
+
+.main h2 {
+  text-align: center;
+  padding: 8px;
+  margin: 16px 0;
+  color: #ff6000;
+}
+
+.qualificationContainer {
+  background-image: url('../public/awardBG3.webp');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  padding: 0.5rem;
+}
+.qualification {
+  backdrop-filter: blur(10px);
+  background-color: hsl(213deg 3% 15% / 70%);
+  color: white;
+  padding: 0.5rem;
+}
+.qualification li {
+  list-style: hebrew;
+}
+
+.youtubeTile {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.youtubeTile iframe {
+  height: 60vw;
+  max-height: 360px;
+}
+
+.successStoryTile {
+  box-shadow: 0px 5px 20px 0px rgb(0 0 0 / 10%);
+  padding: 0.75rem;
+  background: white;
+  border-radius: 5px;
+  display: none;
+}
+.contactDetailBG {
+  background-image: url('../public/sea.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contactDetailContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(24 30 40 / 90%);
+  color: white;
+  width: 100vw;
+  max-width: 786px;
+}
+.contactDetail {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0;
+  font-size: 1.1rem;
+}
+.contactDetail p {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contactDetail a {
+  color: white;
+  text-decoration: none;
+}
+.contactDetail a[title='WhatsApp'] {
+  width: 24px;
+  display: inline-block;
+  color: #008069;
+}
+
+.contactDetailNumber > p {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+
+.contactDetail p:first-child {
+  font-size: 1.25rem;
+}
+
+.main a[title='instagram'] {
+  width: 52px;
+  display: inline-block;
+  color: red;
+  padding: 8px;
+  display: none;
+}
+.main a[title='youtube'] {
+  width: 64px;
+  display: inline-block;
+  color: red;
+  padding: 8px;
+}
+.contactDetailImage {
+  padding-right: 1rem;
+  width: 180px;
+}
+.contactDetailImage img {
+  width: 180px;
+  height: 150px;
+}
+
+.programBGimage {
+  background-image: url('../public/before_mobile.webp');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.programContainer {
+  padding: 1px 1rem 2rem;
+  text-align: left;
+  width: 100vw;
+  max-width: 786px;
+  background-color: #ffffffea;
+}
+
+.about {
+  padding: 1rem 0;
+}
+
+.about h2,
+.about h4 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #ff6000;
+}
+
+.about h2 {
+  margin-top: 1rem;
+}
+
+.about h4 {
+  margin-bottom: 1rem;
+}
+.aboutText {
+  color: #696969;
+  font-weight: 300;
+  text-align: justify;
+}
