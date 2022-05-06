@@ -42,14 +42,14 @@ export default function Main() {
             <div className={style.contactDetailImage}>
               <img src="logo.webp" height={120} />
             </div>
-            <div lassName={style.contactDetailNumber}>
+            <div className={style.contactDetailNumber}>
               <p>Rohit Salaniya</p>
               <p>
                 <a href="tel:9971293694">9971293694</a>{' '}
                 <a
                   target="_blank"
                   title="WhatsApp"
-                  href="https://api.whatsapp.com/send?phone=+9971293694&amp;text=Hi, I would like to get more information about personal classes"
+                  href="https://api.whatsapp.com/send?phone=+919971293694&amp;text=Hi, I would like to get more information about personal classes"
                 >
                   <FontAwesomeIcon icon="fa-brands fa-whatsapp"></FontAwesomeIcon>
                 </a>
