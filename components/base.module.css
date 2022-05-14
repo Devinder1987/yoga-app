@@ -216,3 +216,35 @@
   font-weight: 300;
   text-align: justify;
 }
+
+.bookNowCTAContainder {
+  background: linear-gradient(
+    90deg,
+    rgb(255 231 231) 0%,
+    rgb(255 199 167) 100%
+  );
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.bookNowCTAContainder a {
+  background: #ff6000;
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.bookNowCTA {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.bookNowCTA img {
+  width: 48px;
+  height: 48px;
+}

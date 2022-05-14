@@ -40,7 +40,7 @@ export default function Main() {
           <h3>Contact Detail</h3>
           <div className={style.contactDetail}>
             <div className={style.contactDetailImage}>
-              <img src="logo.webp" height={120} />
+              <img src="logo.webp" />
             </div>
             <div className={style.contactDetailNumber}>
               <p>Rohit Salaniya</p>
