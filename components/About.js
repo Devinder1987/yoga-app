@@ -8,19 +8,19 @@ function About() {
       <h4>Fitness Trainer</h4>
       <div className={style.aboutText}>
         <p>
-          Namaste! I am glad you are here and considered me as a part of your
+          Namaste! I am glad you are here and consider me as a part of your
           fitness journey. I am a{' '}
           <b>
             Level- II Certified Yoga Instructor from YCB ( Ministry of Ayush
             GOI)
           </b>
           {'. '}
-          I have over 5 years of experince as a fitness trainer.
+          I have over 5 years of experience as a fitness trainer.
           <br />I played a vital role in digital promotion of yoga during COVID
-          pendemic and got <b>Apprecation Certifcate </b> from YCB on
+          pandemic and got an <b>Appreciation Certificate </b> from YCB on
           International yoga day 21<sup>st</sup> June, 2021.
         </p>
-        <p>I am specialize in personal yoga traing and group class.</p>
+        <p>I specialise in personal yoga training and group class.</p>
         <br />
         <b>
           <i>My work experince includes-</i>
