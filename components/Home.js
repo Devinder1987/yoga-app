@@ -5,19 +5,19 @@ import Program from './Program';
 import About from './About';
 import style from './base.module.css';
 
-export default function Main() {
+export default function Home() {
   return (
     <main className={style.main}>
       <div className={style.paddingBottom}>
         <YoutubeTile src="https://www.youtube.com/embed/c4ZmjtI7l3E" title="" />
         <h2 className={style.brightText}>
-          <i>Fitness is a journey not a goal</i>
+          <i>Mould body and mind as per your wish</i>
         </h2>
         <p className={style.regularText}>
-          Fitness is a never ending journey. Enjoy your fitness journey. The
-          real meaning of fitness is staying a peaceful soul in a strong body.
-          We offers multiple programs for peace of mind and strong & flexible
-          body.
+          Proper guided workout is key to have a healthy body and calm mind.
+          Just one hour of guided workout will charge you for the remaining 23
+          hours. We offer multiple fitness programs which will make you more
+          physically and mentally fit.
         </p>
       </div>
       <Program />
@@ -75,7 +75,7 @@ export default function Main() {
               <a
                 target="_blank"
                 title="instagram"
-                href="https://www.youtube.com/channel/UCRzHmwCABujR8p2hkJK6VMQ"
+                href="https://www.instagram.com/rohitsalaniya"
               >
                 <FontAwesomeIcon icon="fa-brands fa-instagram">
                   {' '}

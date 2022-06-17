@@ -6,12 +6,13 @@ function Program() {
       <div className={style.programContainer}>
         <h2>Fitness Programs</h2>
         <ul>
-          <li>Yoga Classes</li>
-          <li>Power Yoga</li>
-          <li>Weight Loss</li>
+          <li>Personal Yoga Classes</li>
+          <li>Group Yoga Classes</li>
+          <li>Weight Loss Program</li>
           <li>Physiotherapy classes</li>
           <li>General Fitness</li>
           <li>Functional Training</li>
+          <li>Activity Classes for Kids</li>
         </ul>
         <div className={style.bookNowCTAContainder}>
           <p>

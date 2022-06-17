@@ -6,6 +6,7 @@
 .paddingBottom {
   padding-bottom: 2rem;
 }
+
 .header {
   /* height: 64px; */
   display: flex;
@@ -22,18 +23,23 @@
   color: #fff;
 }
 
-.main {
+.section {
   padding: 6rem 1rem 1rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  min-height: Calc(100vh - 64px);
   background: linear-gradient(
     90deg,
     rgba(255, 253, 226, 0.7) 0%,
     rgba(228, 241, 255, 0.7) 100%
   );
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: Calc(100vh - 64px);
 }
 
 .brightText {
@@ -161,7 +167,6 @@
   display: inline-block;
   color: red;
   padding: 8px;
-  display: none;
 }
 .main a[title='youtube'] {
   width: 64px;
@@ -237,7 +242,9 @@
   font-weight: 600;
   display: inline-block;
 }
-
+.bookNowCTAContainder p {
+  font-size: initial;
+}
 .bookNowCTA {
   display: flex;
   justify-content: space-between;
@@ -247,4 +254,12 @@
 .bookNowCTA img {
   width: 48px;
   height: 48px;
+}
+
+.formGrid > div,
+.formGrid textarea,
+.formGrid > input,
+.formGrid button {
+  margin-top: 1rem;
+  width: 100%;
 }

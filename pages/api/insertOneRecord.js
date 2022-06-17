@@ -2,6 +2,7 @@ import mongoConnect from './monoDBconnect';
 
 function insertOneRecord(req, res) {
   const data = req.body;
+  console.log('insertOneRecord ', data);
   function callBackFn(err, result) {
     if (err) {
       res.status(503).json({ status: 'Error', data: null });

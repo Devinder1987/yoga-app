@@ -8,14 +8,14 @@ async function mongoConnect(operation, data, callBackFn) {
   const db = client.db();
   const yogaCollection = await db.collection('myFirstDatabase');
   switch (operation) {
-    case 'insertMany':
-      yogaCollection.insertMany(data, function (err, result) {
+    case 'insertOne':
+      yogaCollection.insertOne(data, function (err, result) {
         callBackFn(err, result);
         client.close();
       });
       break;
-    case 'find':
-      yogaCollection.find(data).toArray(function (err, result) {
+    case 'findOne':
+      yogaCollection.findOne(data, function (err, result) {
         callBackFn(err, result);
         client.close();
       });

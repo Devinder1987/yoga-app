@@ -20,6 +20,7 @@ function About() {
           pendemic and got <b>Apprecation Certifcate </b> from YCB on
           International yoga day 21<sup>st</sup> June, 2021.
         </p>
+        <p>I am specialize in personal yoga traing and group class.</p>
         <br />
         <b>
           <i>My work experince includes-</i>
