@@ -2,7 +2,6 @@ import mongoConnect from './monoDBconnect';
 
 async function findRecord(req, res) {
   const data = req.body;
-  console.log(data);
   function callBackFn(err, result) {
     console.log(err, result);
     if (err) {
