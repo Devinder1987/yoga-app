@@ -11,7 +11,7 @@ export default function Home() {
       <div className={style.paddingBottom}>
         <YoutubeTile src="https://www.youtube.com/embed/c4ZmjtI7l3E" title="" />
         <h2 className={style.brightText}>
-          <i>Mould body and mind as per your wish</i>
+          <i>Mould your body and mind</i>
         </h2>
         <p className={style.regularText}>
           Proper guided workout is key to have a healthy body and calm mind.
