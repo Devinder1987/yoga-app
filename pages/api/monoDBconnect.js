@@ -52,3 +52,5 @@ export async function mongoConnect(operation, data, callBackFn) {
       break;
   }
 }
+
+export default mongoConnect;
