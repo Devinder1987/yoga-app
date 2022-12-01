@@ -1,12 +1,26 @@
 import { MongoClient } from 'mongodb';
 
-async function mongoConnect(operation, data, callBackFn) {
+export async function MongoDBConnect(collection, operation, data, callBackFn) {
+  const client = await MongoClient.connect(
+    'mongodb+srv://dshutwal:bB02SOAZwrY8K9kE@cluster0.enc6r.mongodb.net/yogaApp?retryWrites=true&w=majority'
+  );
+
+  const db = client.db();
+  const myCollection = await db.collection(collection);
+  myCollection[operation](data, function (error, result) {
+    callBackFn(error, result);
+    client.close();
+  });
+}
+
+export async function mongoConnect(operation, data, callBackFn) {
   const client = await MongoClient.connect(
     'mongodb+srv://dshutwal:bB02SOAZwrY8K9kE@cluster0.enc6r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
   );
 
   const db = client.db();
   const yogaCollection = await db.collection('myFirstDatabase');
+
   switch (operation) {
     case 'insertOne':
       yogaCollection.insertOne(data, function (err, result) {
@@ -38,5 +52,3 @@ async function mongoConnect(operation, data, callBackFn) {
       break;
   }
 }
-
-export default mongoConnect;

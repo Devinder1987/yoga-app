@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Link from 'next/link';
 import YoutubeTile from './YoutubeTile';
 import SuccessStoryTile from './SuccessStoryTile';
 import Program from './Program';
@@ -21,7 +22,13 @@ export default function Home() {
         </p>
       </div>
       <Program />
+      <Link href="/program">
+        <a>Know More about Program</a>
+      </Link>
       <About />
+      <Link href="/about">
+        <a>Know More about Trainer</a>
+      </Link>
       <div>
         <SuccessStoryTile
           src="before"

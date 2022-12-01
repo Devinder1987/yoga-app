@@ -1,17 +1,22 @@
 /* Layout applies common style to all compoents.
  */
 import Head from 'next/head';
+import Link from 'next/link';
 import style from './base.module.css';
 
 export default function Layout({ htmlTitle, children }) {
   return (
-    <div className="container">
+    <div className='container'>
       <Head>
         <title>{htmlTitle}</title>
-        <link rel="icon" href="/logo.webp" />
+        <link rel='icon' href='/logo.webp' />
       </Head>
       <header className={style.header}>
-        <img src="logo.webp" height={64} />
+        <Link href='/'>
+          <a>
+            <img src='/logo.webp' height={64} />
+          </a>
+        </Link>
         <h2>RS Fitness</h2>
         <h2></h2>
       </header>
@@ -19,7 +24,7 @@ export default function Layout({ htmlTitle, children }) {
       <section className={style.section}>{children}</section>
       <footer>
         Created by
-        <a href="https://www.linkedin.com/in/dshutwal/">
+        <a href='https://www.linkedin.com/in/dshutwal/'>
           {' '}
           &nbsp; Devinder Shuthwal
         </a>
