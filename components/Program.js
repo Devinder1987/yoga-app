@@ -1,6 +1,11 @@
 import style from './base.module.css';
+import useFetchApi from './utils/useFetchApi';
 
 function Program() {
+  const data = { clientName: 'Devinder Shuthwal' };
+  const [response, error] = useFetchApi('/api/findRecord', data);
+  console.log('Response: ', response);
+  console.log('Error: ', error);
   return (
     <div className={style.programBGimage}>
       <div className={style.programContainer}>
@@ -19,15 +24,21 @@ function Program() {
             <b>First two classes absolutly free.</b>
           </p>
           <div className={style.bookNowCTA}>
-            <img src="Offer.gif" alt="Free" />
+            <img
+              src='Offer.gif'
+              alt='Free'
+            />
             <a
-              target="_blank"
-              title="WhatsApp"
-              href="https://api.whatsapp.com/send?phone=+919971293694&amp;text=Hi, I would like to get more information about personal classes"
+              target='_blank'
+              title='WhatsApp'
+              href='https://api.whatsapp.com/send?phone=+919971293694&amp;text=Hi, I would like to get more information about personal classes'
             >
               Book Now
             </a>
-            <img src="Offer.gif" alt="Free" />
+            <img
+              src='Offer.gif'
+              alt='Free'
+            />
           </div>
         </div>
       </div>

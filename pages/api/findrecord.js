@@ -9,7 +9,7 @@ async function findRecord(req, res) {
     }
     res.status(200).json({ status: 'Success', data: result });
   }
-  await mongoConnect('findOne', data, callBackFn);
+  return await mongoConnect('findOne', data, callBackFn);
 }
 
 export default findRecord;
